@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    background-image: url(./img/whitesmoke.png);
+}
+
+#mainpage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav{
+    width: 25%;
+    min-height: 90vh;
+}
+
+#list{
+    padding-top: 1em;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+#list li{
+    list-style: none;
+    height: 3em;
+    border-radius: 0 14px 14px 0;
+    padding-left: 25%;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+#list li a{
+    text-decoration: none;
+    top: 50%;
+    font-size: 1.1em; 
+    color: whitesmoke; 
+}
+
+#list li:nth-child(1){
+    background-color: rgb(253, 0, 13);
+    width: 82%;
+}
+
+#list li:nth-child(2){
+    background-color: rgb(19, 160, 165);
+}
+
+#list li:nth-child(3){
+    background-color: rgb(138, 173, 10);
+}
+
+#list li:nth-child(4){
+    background-color: rgb(6, 94, 50);
+}
+
+#aside{
+    width: 75%;
+    min-height: 90vh;
+    color: white;
+    border-radius: 30px;  
+}
+
+aside header h1{
+    padding-top: 50px;
+    font-size: 4em;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#img-section{
+    display: flex;
+    padding: 50px;
+}
+
+#img-section img{
+    max-height: 200px;
+}
+
+#section-text{
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 18px;;          
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: center;   
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;   
+}
+
+footer img{
+    height: 7vh; 
+    padding-left: 10px;        
+}
+
+/* Media and device */
+@media only screen and (max-width: 720px) {
+body{
+    height: auto;
+}
+
+#mainpage{
+        display: block;
+}
+
+#nav{
+    width: 75%;
+    min-height: 10vh;
+}
+
+#aside{
+    width: auto;
+}
+
+aside header h1{
+    padding: 6px;
+    text-align: center;
+
+}#img-section {
+    display: block;
+    padding: 5%;
+} 
+
+#section-text{
+    padding: 0;
+}
+
+#img-section img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  height: 200px;
+}
+
+footer{
+    height: 6vh;
+    font-size: 12px;
+}
+
+footer img{
+    height: 4vh;    
+}
+}

@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    background-image: url(./img/whitesmoke.png);
+}
+
+#popin-colins{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 90vh;
+}
+
+#nav{
+    width: 25%;
+    min-height: 40vh;
+}
+
+#list{
+    padding-top: 1em;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+#list li{
+    list-style: none;
+    height: 3em;
+    border-radius: 0 14px 14px 0;
+    padding-left: 25%;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+#list li a{
+    text-decoration: none;
+    top: 50%;
+    font-size: 1.1em; 
+    color: whitesmoke; 
+}
+
+#list li:nth-child(1){
+    background-color: rgb(253, 0, 13);
+}
+
+#list li:nth-child(2){
+    background-color: rgb(19, 160, 165);
+}
+
+#list li:nth-child(3){
+    background-color: rgb(138, 173, 10);
+}
+
+#list li:nth-child(4){
+    background-color: rgb(6, 94, 50);
+    width: 82%;
+}
+
+aside{
+    width: 75%;
+    min-height: 40vh;
+    color: white;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    padding: 30px;
+}
+
+aside h1{
+    font-size: 5em;
+    margin: 70px 0 50px 0;
+}
+
+section p{
+    font-size: 18px;
+    padding: 0 40px 0 40px;
+}
+
+section img{
+    width: 200px;
+    height: 300px ;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: center;   
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;   
+}
+
+footer img{
+    height: 7vh; 
+    padding-left: 10px;        
+}
+
+@media only screen and (max-width: 720px) {
+    body{
+        height: auto;
+    }
+    
+    #early-life-and-education{
+            display: block;
+    }
+    
+    #nav{
+        width: 75%;
+        min-height: 10vh;
+    }
+    
+    aside{
+        width: auto ;
+    }
+
+    aside header h1{
+        margin: 0;
+        padding-left: 0;
+    }
+    
+    aside header h1{
+        padding-top: 1em;
+        text-align: center;
+        font-size: 4em;
+        margin: 0;
+        
+    }
+      
+    aside section{
+        display: block;
+        padding: 1em;
+    }
+    
+
+    #img-section img{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    #img-section {
+    display: block;
+    padding: 5%;    
+    } 
+    
+    footer{
+        height: 6vh;
+        font-size: 12px;
+    }
+    
+    footer img{
+        height: 4vh;    
+    }
+}
