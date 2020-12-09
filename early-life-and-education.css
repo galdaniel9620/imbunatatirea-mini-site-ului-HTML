@@ -63,7 +63,7 @@ body{
     border-radius: 30px;  
 }
 
-#aside header{
+#aside header h1{
     text-align: center;
     font-size: 4em;
 }
@@ -123,17 +123,9 @@ footer img{
         width: auto;
     }
 
-    aside header{
-        margin: 0;
-        padding-left: 0;
-    }
     
     aside header h1{
-        padding-top: 1em;
-        text-align: center;
-        font-size: 1em;
-        margin: 0;
-        
+        margin: 20px 0 20px 0;
     }
       
     #aside section{
